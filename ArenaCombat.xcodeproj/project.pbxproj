@@ -38,6 +38,7 @@
 		0D641DA01982CD43007A7860 /* ArenaCombatTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ArenaCombatTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0D641DA51982CD43007A7860 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0D641DA61982CD43007A7860 /* ArenaCombatTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArenaCombatTests.swift; sourceTree = "<group>"; };
+		0DF12CAE1982F2C900B00B86 /* Combat.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; name = Combat.playground; path = Playgrounds/Combat.playground; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +62,7 @@
 		0D641D811982CD42007A7860 = {
 			isa = PBXGroup;
 			children = (
+				0DF12CAD1982F2BD00B00B86 /* Playgrounds */,
 				0D641D8C1982CD43007A7860 /* ArenaCombat */,
 				0D641DA31982CD43007A7860 /* ArenaCombatTests */,
 				0D641D8B1982CD43007A7860 /* Products */,
@@ -113,6 +115,14 @@
 				0D641DA51982CD43007A7860 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0DF12CAD1982F2BD00B00B86 /* Playgrounds */ = {
+			isa = PBXGroup;
+			children = (
+				0DF12CAE1982F2C900B00B86 /* Combat.playground */,
+			);
+			name = Playgrounds;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
